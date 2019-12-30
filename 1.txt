@@ -1,0 +1,107 @@
+<view  class ="a">
+ <view class="b"></view> 
+ <view class="c">
+   <view class="ba">
+    <view class = "baa">
+       <view class="baaa"> 
+       1
+       </view>    
+    </view>
+   </view>
+   <view class="bb">2</view>
+   <view class="bc">3</view>
+   <view class="bd">4</view>
+ </view>
+ <view class="d"></view>
+ <view class="e"></view>
+ <view class="f"></view>
+ <view class="g"></view>
+</view>
+
+
+
+
+
+
+.a{
+
+  background: red;
+  height:1180rpx;
+  display: flex;
+  flex-direction: column;
+}
+.b{
+  flex: 3;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.c{
+  display: flex;
+  flex: 1;
+  background: yellow;
+  flex-direction: row;
+
+}
+.d{
+  flex: 1;
+  background: gray;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.e{
+ flex: 1;
+  background: red;
+}
+.f{
+flex: 1;
+background: gray;
+}
+.g{
+flex: 1;
+background: green;
+}
+.ba{
+  flex: 1;
+  background: green;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bb{
+  flex: 1;
+   display: flex;
+  background: red;
+  align-items: center;
+  justify-content: center;
+}
+.bc{
+  flex: 1;
+  background: green;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bd{
+  flex: 1;
+  background: red;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.baa{
+display: flex;
+background: black;
+width: 120rpx;
+height: 120rpx;
+border-radius: 60rpx;
+ align-items: center;
+  justify-content: center;
+}
+.baaa{
+  color:  white;
+}
